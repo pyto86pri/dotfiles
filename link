@@ -1,0 +1,6 @@
+#!/bin/sh
+for file in .??*
+do
+    [ "$file" = ".git" ] && continue
+    ln -snfv $(pwd)/$file ~/
+done

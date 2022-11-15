@@ -1,0 +1,13 @@
+[user]
+    name = pyto86
+    email = pyto86.me@gmail.com
+
+[alias]
+    a = add
+    c = commit
+    ca = commit --amend
+    p = push
+    l = pull
+
+[ghq]
+    root = ~/src

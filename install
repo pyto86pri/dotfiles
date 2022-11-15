@@ -1,0 +1,12 @@
+#!/bin/sh
+
+# brew
+brew bundle
+brew cleanup
+
+# ohmyzsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+(cd ohmyzsh && sh ./install)
+
+# VSCode
+(cd vscode && sh ./install)
